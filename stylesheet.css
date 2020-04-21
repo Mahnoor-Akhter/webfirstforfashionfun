@@ -1,0 +1,171 @@
+header
+{
+   
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    color: red;
+    border: 2px solid black;
+}
+body
+{
+    
+    font-family: sans-serif;
+    background-color:antiquewhite;
+    background-image:url(images/original.gif);
+}
+h1
+{
+   color: black;
+    text-decoration: underline
+    
+}
+nav ul li:hover{
+    background-color: palevioletred;
+}
+nav
+{
+    background-color: #000000;
+    padding: 3px;
+    position:inherit;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: #A9A9A9;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+main
+{
+    
+    bottom: 20px;
+    left: 20px;
+    color:black;
+    tab-size: 4px;
+    border: 4px;
+    
+}  
+    #copyright {
+    color:white;
+    text-align: center;
+    background-color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#cols {
+    column-count: 3;
+    column-gap: normal;
+    column-rule: 1px solid black;
+}
+
+aside {
+    color: black;
+    border: 1px solid black;
+    width: 17.5%;
+    float: right;
+}
+h2 {
+    color: black;
+    text-align: left;
+text-decoration: underline;
+}
+
+aside ol li {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    margin: 15px,200px;
+    padding: 20px;
+    border: solid black;
+    background:antiquewhite;
+    min-height: 500px;
+}
+#button
+{
+    margin-left: 138px;
+}
+
+#button,#reset
+{
+    margin-top: .5em;
+    width: 8em;
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+input[type="checkbox"]
+{
+    width: 15px;
+}
+input[type="radio"]
+{
+    width: 10px;
+}
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+.required
+{
+    font-weight: bold;
+    color: palevioletred;
+}
+input
+{
+    margin-left: 1em;
+    margin-bottom: .5em;
+width: 220px;
+}
+footer
+{
+    clear: both;
+    border: 1px solid palevioletred;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border: 0px;
+    width: 100%;
+    background-color: antiquewhite;;
+    text-align: center;
+    
+border: solid black;
+}
+
+li2 {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+}
+
+a {
+   list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+th,tr,td
+{
+    border: 1px solid black;
+    text-align: left;
+}
